@@ -1,6 +1,6 @@
 function Footer() {
     return (
-      <footer className='fixed bottom-0 text-xl w-full flex justify-end items-center gap-5 p-6'>
+      <footer className='text-xl w-full flex justify-end items-center gap-5 p-5'>
         <p>erinsophie</p>
         <a
           href="https://github.com/erinsophie"
