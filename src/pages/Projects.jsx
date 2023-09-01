@@ -3,19 +3,23 @@ import Project from '../components/Project';
 
 function Projects() {
   return (
-    <div className="flex-1 flex flex-col gap-6">
+    <div className="flex-1 flex flex-col gap-6 mb-20 md:mb-10">
       <p className="font-bold text-2xl">Projects</p>
-      {projectsList.map((project) => (
-        <Project
-          key={project.id}
-          title={project.title}
-          description={project.description}
-          site={project.site}
-          source={project.source}
-          image={project.image}
-          tech={project.tech}
-        ></Project>
-      ))}
+      <p>Projects I&apos;ve created along my learning journey</p>
+
+      <div>
+        {projectsList.map((project) => (
+          <Project
+            key={project.id}
+            title={project.title}
+            description={project.description}
+            site={project.site}
+            source={project.source}
+            image={project.image}
+            tech={project.tech}
+          ></Project>
+        ))}
+      </div>
 
       <a
         href="https://github.com/erinsophie?tab=repositories"

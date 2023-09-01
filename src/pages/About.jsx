@@ -2,9 +2,9 @@ import { RoughNotation } from 'react-rough-notation';
 
 function About() {
   return (
-    <div className="flex-1">
+    <div className="flex-1 mb-20 md:mb-0">
       <div className="flex gap-24">
-        <div className="flex flex-col gap-6">
+        <div className="flex flex-col gap-7">
           <h1 className="text-4xl font-bold">
             Hello! I&apos;m Sophie, a{' '}
             <RoughNotation
@@ -19,11 +19,11 @@ function About() {
             </RoughNotation>
           </h1>
 
-          <div className="flex flex-col gap-8">
+          <div className="flex flex-col gap-4">
             <p>
               For the last 8 months I have been learning the fundamentals in web
               development to become a full-stack software developer. Currently,
-              I'm diving deep into{' '}
+              I&apos;m diving deep into{' '}
               <RoughNotation
                 type="highlight"
                 color="#f1d7fa"
@@ -34,7 +34,8 @@ function About() {
               >
                 React, Node.js, and Express
               </RoughNotation>
-              , and I'm genuinely passionate about building applications that are{' '}
+              , and I&apos;m genuinely passionate about building applications
+              that are{' '}
               <RoughNotation
                 type="highlight"
                 color="#facdaa"
@@ -48,7 +49,7 @@ function About() {
             </p>
 
             <p>
-              Don't forget to check out{' '}
+              Don&apos;t forget to check out{' '}
               <RoughNotation
                 type="highlight"
                 color="#ffcfe4"
@@ -59,8 +60,8 @@ function About() {
               >
                 my projects
               </RoughNotation>{' '}
-              to see the exciting things I've been working on. I'm looking for
-              my{' '}
+              to see the exciting things I&apos;ve been working on. I&apos;m
+              looking for my{' '}
               <RoughNotation
                 type="highlight"
                 color="#f1d7fa"
@@ -82,7 +83,7 @@ function About() {
               >
                 skills and passion
               </RoughNotation>{' '}
-              resonate with you, please don't hesitate to{' '}
+              resonate with you, please don&apos;t hesitate to{' '}
               <RoughNotation
                 type="circle"
                 color="#ffcfe4"

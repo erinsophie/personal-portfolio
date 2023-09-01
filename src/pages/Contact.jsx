@@ -13,7 +13,7 @@ function Contact() {
   }
 
   return (
-    <div className="flex-1 flex flex-col gap-5">
+    <div className="flex-1 flex flex-col gap-5 mb-20 md:mb-0">
       <p className="font-bold text-2xl">Contact</p>
       <p>
         If you have an opportunity you&apos;d like to discuss,{' '}
