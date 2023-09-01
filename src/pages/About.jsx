@@ -1,22 +1,21 @@
 import { RoughNotation } from 'react-rough-notation';
-import placeholder from '../assets/img/placeholder.jpg';
 
 function About() {
   return (
-    <div className="flex-1 pt-20 pr-40 pl-40">
+    <div className="flex-1">
       <div className="flex gap-24">
         <div className="flex flex-col gap-6">
           <h1 className="text-4xl font-bold">
-            Hello! I&apos;m Sophie,{' '}
+            Hello! I&apos;m Sophie, a{' '}
             <RoughNotation
               type="highlight"
               color="#ffcfe4"
               show={true}
               animate={true}
               animationDuration={3000}
-              multiline={true} 
+              multiline={true}
             >
-              a Software Developer
+              Software Developer
             </RoughNotation>
           </h1>
 
@@ -31,18 +30,18 @@ function About() {
                 show={true}
                 animate={true}
                 animationDuration={3000}
-                multiline={true} 
+                multiline={true}
               >
                 React, Node.js, and Express
               </RoughNotation>
-              , and I'm genuinely passionate about building tools that are{' '}
+              , and I'm genuinely passionate about building applications that are{' '}
               <RoughNotation
                 type="highlight"
                 color="#facdaa"
                 show={true}
                 animate={true}
                 animationDuration={3000}
-                multiline={true} 
+                multiline={true}
               >
                 user-friendly, simple and delightful.
               </RoughNotation>
@@ -56,43 +55,45 @@ function About() {
                 show={true}
                 animate={true}
                 animationDuration={3000}
-                multiline={true} 
+                multiline={true}
               >
                 my projects
               </RoughNotation>{' '}
-              to see the exciting things I've been working on. I'm looking for my{' '}
+              to see the exciting things I've been working on. I'm looking for
+              my{' '}
               <RoughNotation
                 type="highlight"
                 color="#f1d7fa"
                 show={true}
                 animate={true}
                 animationDuration={3000}
-                multiline={true} 
+                multiline={true}
               >
                 first role
-              </RoughNotation> in tech, so if my{' '}
+              </RoughNotation>{' '}
+              in tech, so if my{' '}
               <RoughNotation
                 type="highlight"
                 color="#facdaa"
                 show={true}
                 animate={true}
                 animationDuration={3000}
-                multiline={true} 
+                multiline={true}
               >
                 skills and passion
               </RoughNotation>{' '}
               resonate with you, please don't hesitate to{' '}
               <RoughNotation
                 type="circle"
-                color="#f1d7fa"
+                color="#ffcfe4"
                 show={true}
                 animate={true}
                 animationDuration={3000}
-                multiline={true} 
+                multiline={true}
               >
                 reach out
               </RoughNotation>{' '}
-              if you'd like to know more!
+              for a chat!
             </p>
 
             <p></p>
@@ -118,8 +119,6 @@ function About() {
             </a>
           </div>
         </div>
-
-        <img src={placeholder} className="w-[300px] rounded-xl"></img>
       </div>
     </div>
   );
