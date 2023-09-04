@@ -1,6 +1,10 @@
 import { RoughNotation } from 'react-rough-notation';
 
 function About() {
+  const pink = '#ffcfe4';
+  const purple = '#f1d7fa';
+  const orange = '#facdaa';
+
   return (
     <div className="flex-1 mb-20 md:mb-0">
       <div className="flex gap-24">
@@ -9,7 +13,7 @@ function About() {
             Hello! I&apos;m Sophie, a{' '}
             <RoughNotation
               type="highlight"
-              color="#ffcfe4"
+              color={pink}
               show={true}
               animate={true}
               animationDuration={3000}
@@ -21,83 +25,107 @@ function About() {
 
           <div className="flex flex-col gap-4">
             <p>
-              For the last 8 months I have been learning the fundamentals in web
-              development to become a full-stack software developer. Currently,
-              I&apos;m diving deep into{' '}
+              I enjoy building beautiful, simple and{' '}
               <RoughNotation
-                type="highlight"
-                color="#f1d7fa"
+                type="box"
+                color={orange}
                 show={true}
                 animate={true}
                 animationDuration={3000}
                 multiline={true}
               >
-                React, Node.js, and Express
-              </RoughNotation>
-              , and I&apos;m genuinely passionate about building applications
-              that are{' '}
+                user-friendly
+              </RoughNotation>{' '}
+              applications.
+            </p>
+
+            <p>
+              I spent 7 months building a solid foundation in{' '}
               <RoughNotation
                 type="highlight"
-                color="#facdaa"
+                color={orange}
                 show={true}
                 animate={true}
                 animationDuration={3000}
                 multiline={true}
               >
-                user-friendly, simple and delightful.
+                HTML, CSS, and JavaScript
+              </RoughNotation>{' '}
+              by creating pure vanilla JS projects. After which point, I moved
+              onto learning framworks such as{' '}
+              <RoughNotation
+                type="highlight"
+                color={purple}
+                show={true}
+                animate={true}
+                animationDuration={3000}
+                multiline={true}
+              >
+                React, Node.js, and Express.
+              </RoughNotation>{' '}
+              React helps me build out the front end much quicker and with a
+              greater{' '}
+              <RoughNotation
+                type="underline"
+                color={pink}
+                show={true}
+                animate={true}
+                animationDuration={3000}
+                multiline={true}
+              >
+                separation of concerns
+              </RoughNotation>{' '}
+              (it&apos;s the best thing ever!), while learning backend
+              frameworks has helped to round out my knowledge of what&apos;s
+              actually happening{' '}
+              <RoughNotation
+                type="highlight"
+                color={purple}
+                show={true}
+                animate={true}
+                animationDuration={3000}
+                multiline={true}
+              >
+                behind the scenes.
               </RoughNotation>
             </p>
 
             <p>
-              Don&apos;t forget to check out{' '}
+              Take a look at my{' '}
               <RoughNotation
                 type="highlight"
-                color="#ffcfe4"
+                color={pink}
                 show={true}
                 animate={true}
                 animationDuration={3000}
                 multiline={true}
               >
-                my projects
+                projects
               </RoughNotation>{' '}
-              to see the exciting things I&apos;ve been working on. I&apos;m
-              looking for my{' '}
+              to see what I&apos;ve been working on. I&apos;m looking for my
+              first role in tech, so if my willingness to learn and{' '}
               <RoughNotation
                 type="highlight"
-                color="#f1d7fa"
+                color={orange}
                 show={true}
                 animate={true}
                 animationDuration={3000}
                 multiline={true}
               >
-                first role
-              </RoughNotation>{' '}
-              in tech, so if my{' '}
-              <RoughNotation
-                type="highlight"
-                color="#facdaa"
-                show={true}
-                animate={true}
-                animationDuration={3000}
-                multiline={true}
-              >
-                skills and passion
+                self-starter attitude
               </RoughNotation>{' '}
               resonate with you, please don&apos;t hesitate to{' '}
               <RoughNotation
                 type="circle"
-                color="#ffcfe4"
+                color={pink}
                 show={true}
                 animate={true}
                 animationDuration={3000}
                 multiline={true}
               >
-                reach out
-              </RoughNotation>{' '}
-              for a chat!
+                reach out.
+              </RoughNotation>
             </p>
-
-            <p></p>
           </div>
 
           <div className="flex gap-6">
