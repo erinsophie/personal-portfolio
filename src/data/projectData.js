@@ -1,14 +1,24 @@
 import { v4 as uuidv4 } from 'uuid';
-import weatherApp from '../assets/img/weather-app.png';
+import messageBoard from '../assets/img/message-board.png';
 import battleship from '../assets/img/battleship.png';
 import shoppingCart from '../assets/img/shopping-cart.png';
 
 const projectsList = [
   {
     id: uuidv4(),
+    title: 'Mini Message Board',
+    description:
+      'An online message board where users can view all past messages and post new ones. Data is stored in a non-relational database.',
+    site: 'https://message-board-erinsophie.netlify.app/',
+    source: 'https://github.com/erinsophie/message-board',
+    image: messageBoard,
+    tech: ['React', 'Tailwind', 'Node', 'Express', 'MongoDB'],
+  },
+  {
+    id: uuidv4(),
     title: 'Shopping cart',
     description:
-      'A mock shopping cart that fecthes products from FakeStoreAPI. Users can shop different categories, add products to their cart and checkout with a mock process.',
+      'A mock shopping cart that fetches products from FakeStoreAPI. Users can shop different categories, add products to their cart and checkout with a mock process.',
     site: 'https://shopping-cart-erinsophie.netlify.app',
     source: 'https://github.com/erinsophie/shopping-cart',
     image: shoppingCart,
@@ -29,16 +39,6 @@ const projectsList = [
     source: 'https://github.com/erinsophie/battleship',
     image: battleship,
     tech: ['HTML', 'CSS', 'Javascript', 'Jest'],
-  },
-  {
-    id: uuidv4(),
-    title: 'Weather App',
-    description:
-      'Search for any city and the current data, including local time, temperature and condition will be displayed.',
-    site: 'https://erinsophie.github.io/weather-app/',
-    source: 'https://github.com/erinsophie/weather-app',
-    image: weatherApp,
-    tech: ['HTML', 'CSS', 'Javascript', 'Weather API'],
   },
 ];
 

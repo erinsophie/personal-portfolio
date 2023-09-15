@@ -5,7 +5,6 @@ function Projects() {
   return (
     <div className="flex-1 flex flex-col gap-6 mb-20 md:mb-10">
       <p className="font-bold text-2xl">Projects</p>
-      <p>Projects I&apos;ve created along my learning journey</p>
 
       <div>
         {projectsList.map((project) => (

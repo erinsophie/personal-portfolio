@@ -22,7 +22,7 @@ function Contact() {
           color="#ffcfe4"
           show={true}
           animate={true}
-          animationDuration={3000}
+          animationDuration={1000}
           multiline={true}
         >
           get in touch!

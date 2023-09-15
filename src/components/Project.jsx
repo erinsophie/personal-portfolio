@@ -1,7 +1,7 @@
 function Project({ title, description, site, source, image, tech }) {
   return (
     <div className="flex flex-col mb-10 gap-3 lg:gap-8 md:flex-col lg:flex-row md:mb-10 lg:mb-5">
-      <div className="border border-black rounded-lg lg:h-[230px] lg:w-[400px] overflow-hidden flex-shrink-0">
+      <div className=" rounded-lg lg:h-[230px] lg:w-[400px] overflow-hidden flex-shrink-0">
         <img src={image} className="h-full w-full object-cover"></img>
       </div>
 
