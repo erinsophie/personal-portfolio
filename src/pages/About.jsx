@@ -27,7 +27,7 @@ function About() {
 
             <div className="flex flex-col gap-4">
               <p>
-                For the last 9 months I&apos;ve been enrollied in{' '}
+                For the last 9 months I&apos;ve been enrolled in{' '}
                 <a
                   href="https://www.theodinproject.com/"
                   rel="noreferrer noopener"
