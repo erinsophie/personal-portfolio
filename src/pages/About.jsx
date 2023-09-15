@@ -27,8 +27,17 @@ function About() {
 
             <div className="flex flex-col gap-4">
               <p>
-                Over the last 9 months, I have been building a solid foundation
-                in{' '}
+                For the last 9 months I&apos;ve been enrollied in{' '}
+                <a
+                  href="https://www.theodinproject.com/"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                  className="underline"
+                >
+                  The Odin Project
+                </a>{' '}
+                - a free open-source coding curriculum - starting with the
+                foundations course where I learnt the fundamentals in{' '}
                 <RoughNotation
                   type="highlight"
                   color={orange}
@@ -38,8 +47,10 @@ function About() {
                 >
                   HTML, CSS, and JavaScript
                 </RoughNotation>{' '}
-                by creating several vanilla JS projects that demonstrate my
-                evolving skills. More recently I've been learning{' '}
+                I continued my learning with the Full Stack Javascript path.
+                Throughout this course, I&apos;ve been learning how to create
+                dynamic frontends using React along with crafting backends using
+                tools such as{' '}
                 <RoughNotation
                   type="highlight"
                   color={purple}
@@ -47,39 +58,20 @@ function About() {
                   animationDuration={1000}
                   multiline={true}
                 >
-                  React, Node.js, Express, and MongoDB.
+                  Node.js, Express, and MongoDB,
                 </RoughNotation>{' '}
-                Not only has React streamlined my frontend development process,
-                but gaining insights into the workings of Express and MongoDB
-                has helped my overall understanding of building apps.
+                bringing end-to-end web development concepts into practice.
               </p>
+
               <p>
-                As a proactive learner in{' '}
-                <a
-                  href="https://www.theodinproject.com/"
-                  rel="noreferrer noopener"
-                  target="_blank"
-                  className="underline"
-                >
-                  {' '}
-                  <RoughNotation
-                    type="highlight"
-                    color={pink}
-                    animate={true}
-                    animationDuration={1000}
-                    multiline={true}
-                  >
-                    The Odin Project
-                  </RoughNotation>
-                </a>{' '}
-                course, I’m part of a community of self-learners where I
-                actively participate in their Discord channel. This
+                As a proactive learner, I&apos;m part of a community where I
+                regularly participate in their Discord channel. This
                 collaborative environment has made me realise I find joy in
                 assisting others with their queries and coding dilemmas.
               </p>
 
               <p>
-                I’m looking for my{' '}
+                I&apos;m looking for my{' '}
                 <RoughNotation
                   type="highlight"
                   color={orange}
