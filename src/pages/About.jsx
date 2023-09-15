@@ -37,7 +37,7 @@ function About() {
                   The Odin Project
                 </a>{' '}
                 - a free open-source coding curriculum - starting with the
-                foundations course where I learnt the fundamentals in{' '}
+                foundations course where I learned the fundamentals in{' '}
                 <RoughNotation
                   type="highlight"
                   color={orange}
@@ -45,12 +45,10 @@ function About() {
                   animationDuration={1000}
                   multiline={true}
                 >
-                  HTML, CSS, and JavaScript
+                  HTML, CSS, and JavaScript.
                 </RoughNotation>{' '}
-                I continued my learning with the Full Stack Javascript path.
-                Throughout this course, I&apos;ve been learning how to create
-                dynamic frontends using React along with crafting backends using
-                tools such as{' '}
+                I have continued to expand my learning with tools such as React
+                to create{' '}
                 <RoughNotation
                   type="highlight"
                   color={purple}
@@ -58,9 +56,20 @@ function About() {
                   animationDuration={1000}
                   multiline={true}
                 >
+                  dynamic frontends
+                </RoughNotation>{' '}
+                along with{' '}
+                <RoughNotation
+                  type="highlight"
+                  color={pink}
+                  animate={true}
+                  animationDuration={1000}
+                  multiline={true}
+                >
                   Node.js, Express, and MongoDB,
                 </RoughNotation>{' '}
-                bringing end-to-end web development concepts into practice.
+                bringing end-to-end web development concepts into practice. Take
+                a look at my projects to see what I&apos;ve been working on!
               </p>
 
               <p>
@@ -91,7 +100,7 @@ function About() {
                 >
                   self-starter attitude
                 </RoughNotation>{' '}
-                resonate with you, I'm eager to connect and explore
+                resonate with you, I&apos;m eager to connect and explore
                 opportunities where I can add value to your team.
               </p>
             </div>
