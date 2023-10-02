@@ -6,14 +6,14 @@ function Contact() {
 
   if (state.succeeded) {
     return (
-      <div className="flex-1">
+      <div className="">
         <p>Thanks for your message! I will get back to you shortly</p>
       </div>
     );
   }
 
   return (
-    <div className="flex-1 flex flex-col gap-5 mb-20 md:mb-0">
+    <div className="flex flex-col gap-5">
       <p className="font-bold text-2xl">Contact</p>
       <p>
         If you have an opportunity you&apos;d like to discuss,{' '}
@@ -30,8 +30,8 @@ function Contact() {
       </p>
 
       <form onSubmit={handleSubmit} className="flex flex-col gap-5">
-        <div className="flex items-center">
-          <label htmlFor="name" className="w-20">
+        <div className="flex items-center gap-4">
+          <label htmlFor="name" >
             Name*
           </label>
           <input
@@ -44,8 +44,8 @@ function Contact() {
           <ValidationError prefix="Name" field="name" errors={state.errors} />
         </div>
 
-        <div className="flex items-center">
-          <label htmlFor="email" className="w-20">
+        <div className="flex items-center gap-4">
+          <label htmlFor="email">
             Email*
           </label>
           <input

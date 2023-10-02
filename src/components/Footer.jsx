@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer className="text-black text-sm md:text-base w-full flex flex-col gap-1 items-center justify-between pt-5 pb-5 md:flex-row">
+    <footer className="absolute bottom-0 text-gray-400 text-sm md:text-base w-full flex flex-col gap-1 items-center justify-between p-5 md:flex-row">
       <div>
         <p>Built with React.js and Tailwind</p>
       </div>

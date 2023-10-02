@@ -1,31 +1,42 @@
+import { useState } from 'react';
 import projectsList from '../data/projectData';
 import Project from '../components/Project';
 
 function Projects() {
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  function handleNext() {
+    if (currentIndex < projectsList.length - 1)
+      setCurrentIndex(currentIndex + 1);
+    if (currentIndex === projectsList.length - 1) setCurrentIndex(0);
+  }
+
+  function handlePrev() {
+    if (currentIndex > 0) setCurrentIndex(currentIndex - 1);
+    if (currentIndex === 0) setCurrentIndex(projectsList.length - 1);
+  }
+
   return (
-    <div className="flex-1 flex flex-col gap-6 mb-20 md:mb-10">
+    <div className="flex flex-col gap-5">
       <p className="font-bold text-2xl">Projects</p>
 
-      <div>
-        {projectsList.map((project) => (
-          <Project
-            key={project.id}
-            title={project.title}
-            description={project.description}
-            site={project.site}
-            source={project.source}
-            image={project.image}
-            tech={project.tech}
-          ></Project>
-        ))}
+      <div className="flex gap-5 justify-between">
+        <button onClick={handlePrev}>
+          <i className="fa-solid fa-chevron-left text-2xl"></i>
+        </button>
+        <Project {...projectsList[currentIndex]} />
+        <button onClick={handleNext}>
+          <i className="fa-solid fa-chevron-right text-2xl"></i>
+        </button>
       </div>
 
       <a
         href="https://github.com/erinsophie?tab=repositories"
         target="_blank"
         rel="noopener noreferrer"
+        className='underline'
       >
-        View all projects <i className="fa-solid fa-arrow-right"></i>
+        View all projects
       </a>
     </div>
   );

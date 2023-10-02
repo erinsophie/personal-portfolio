@@ -1,12 +1,10 @@
-import { Outlet } from 'react-router-dom';
-import Header from './components/Header';
+import MainContent from './components/MainContent';
 import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="max-w-[370px] md:max-w-[500px] lg:max-w-[800px] mx-auto flex flex-col h-screen">
-      <Header />
-      <Outlet />
+    <div className="relative flex flex-col justify-center min-h-screen">
+      <MainContent />
       <Footer />
     </div>
   );

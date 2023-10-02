@@ -2,7 +2,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from '../App';
 import About from '../pages/About';
 import Projects from '../pages/Projects';
-import Contact from '../pages/Contact'
+import Contact from '../pages/Contact';
+import Error from './Error';
 
 function Router() {
   const router = createBrowserRouter([
@@ -23,6 +24,7 @@ function Router() {
           element: <Contact />,
         },
       ],
+      errorElement: <Error />,
     },
   ]);
 

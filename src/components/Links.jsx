@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
 
-function Header() {
+function Links() {
   return (
-    <header className="text-gray-400 pt-5 pb-5 mb-16 flex gap-8 justify-end items-center text-base">
+    <div className="absolute top-5 right-5 flex lg:right-48 lg:top-56 text-gray-400 lg:flex-col gap-3 text-base">
       <Link to="/" className="hover:text-black">
         About
       </Link>
@@ -12,8 +12,8 @@ function Header() {
       <Link to="/contact" className="hover:text-black">
         Contact
       </Link>
-    </header>
+    </div>
   );
 }
 
-export default Header;
+export default Links;
